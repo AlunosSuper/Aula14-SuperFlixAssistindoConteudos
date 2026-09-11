@@ -1,6 +1,6 @@
-import Formulario from "./components/Formulario"
+import Rotas from "./Rotas";
 
 
 export default function App() {
-  return <Formulario/>
+  return <Rotas/>
 }
