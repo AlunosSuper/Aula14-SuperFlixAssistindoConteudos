@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Principal from "../components/Principal";
 import Reprodutor from "../components/Reprodutor";
 
-export default function Explorar() {
+export default function Video() {
   const { codigo } = useParams();
   const [conteudo, definirConteudo] = useState({});
 
